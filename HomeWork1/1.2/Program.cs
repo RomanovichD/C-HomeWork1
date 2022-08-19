@@ -10,7 +10,6 @@ Console.Write ("Введите три целых числа ");
             int y = int.Parse( Console.ReadLine()  )   ;
             int z = int.Parse( Console.ReadLine()  )   ;
             int max = x;
-            // if (x == y == z) Console.WriteLine("Числа равны");
             if (max < y) max = y;
             if (max < z) max = z;
             Console.WriteLine("max = "+ max);
