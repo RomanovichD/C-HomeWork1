@@ -11,10 +11,10 @@ Console.WriteLine("Введите трехзначное число");
 string DeleteSecond()
 {
     int a = int.Parse(Console.ReadLine());
-    int First = a / 100;
-    int Third = a % 10;
-    int desired = First * 10 + Third;
+    int b = a / 10;
+    int c = b % 10;
+    
 
-    return ("ответ "+ desired);
+    return ("ответ "+ c);
 }
 Console.WriteLine(DeleteSecond());
