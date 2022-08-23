@@ -13,7 +13,7 @@ string FindThird()
     if (a < 100) return ("третьей цифры нет");
     else
     {    
-        while (a > 99)
+        while (a > 999)
         {
             a = a / 10;
         }
